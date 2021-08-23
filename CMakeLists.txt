@@ -5,7 +5,9 @@ include(CTest)
 enable_testing()
 
 include_directories("my-help-tools/")
-add_executable(numeric_algo main.cpp)
+
+aux_source_directory("Matrix/" all_src)
+add_executable(numeric_algo main.cpp ${all_src})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
