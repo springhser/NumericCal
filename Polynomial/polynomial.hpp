@@ -1,7 +1,15 @@
+/*
+ * @Author: your name
+ * @Date: 2020-05-08 19:36:04
+ * @LastEditTime: 2021-08-23 22:26:28
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /NumericCal/Polynomial/polynomial.hpp
+ */
 #ifndef POLYNOMIAL_HPP
 #define POLYNOMIAL_HPP
 
-#include "../Utils/HelpTool.hpp"
+#include "Utils/HelpTool.hpp"
 
 #include <vector>
 
