@@ -4,6 +4,7 @@ project(numeric_algo VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
+include_directories("my-help-tools/")
 add_executable(numeric_algo main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
